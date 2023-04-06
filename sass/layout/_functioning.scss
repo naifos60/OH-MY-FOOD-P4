@@ -1,0 +1,12 @@
+.functioning{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    background: $cd-white-section;  
+    }
+
+.stage{
+    display: flex;
+    flex-direction: row;
+}

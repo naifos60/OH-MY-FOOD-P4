@@ -43,6 +43,10 @@ body {
   height: 21px;
 }
 
+.a {
+  list-style: none;
+}
+
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -61,6 +65,7 @@ body {
 .button-bannier {
   width: 218px;
   height: 50px;
+  margin: 27px auto 57px;
 }
 
 .card {
@@ -115,6 +120,38 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.functioning {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+}
+
+.stage {
+  display: flex;
+  flex-direction: row;
+}
+
+.bannier {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bannier__title {
+  font-weight: 700;
+  font-size: 24px;
+  font-style: bold;
+  color: #000000;
+  margin: 35px auto 0;
+}
+.bannier-content {
+  color: #353535;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 /*# sourceMappingURL=style.css.map */
