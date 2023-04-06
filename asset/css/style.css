@@ -51,13 +51,16 @@ body {
   font-family: "Shrikhand";
 }
 
-.bannier-button {
-  width: 218px;
-  height: 50px;
+.button {
+  border: none;
   border-radius: 25px;
   background: linear-Gradient(#9356DC 0%, #FF79DA 100%);
   color: #FFFFFF;
-  box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+.button-bannier {
+  width: 218px;
+  height: 50px;
 }
 
 .card {
