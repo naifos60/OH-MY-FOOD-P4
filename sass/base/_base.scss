@@ -31,6 +31,15 @@ body{
     line-height: 43.74px;
     color: #101010;
 }
+h2{
+    font-weight: 700;
+    font-size: 24px;
+    font-style: bold;
+    color: #000000;
+}
+ul{
+    padding: 0;
+}
 
 .fa-solid{
     color: #7E7E7E;
@@ -41,6 +50,7 @@ body{
     height: 21px;
 }
 
-.a{
+a{
     list-style: none;
+    text-decoration: none;
 }

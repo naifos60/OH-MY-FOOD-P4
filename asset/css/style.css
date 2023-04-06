@@ -33,6 +33,17 @@ body {
   color: #101010;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+  font-style: bold;
+  color: #000000;
+}
+
+ul {
+  padding: 0;
+}
+
 .fa-solid {
   color: #7E7E7E;
 }
@@ -43,8 +54,9 @@ body {
   height: 21px;
 }
 
-.a {
+a {
   list-style: none;
+  text-decoration: none;
 }
 
 * {
@@ -66,6 +78,7 @@ body {
   width: 218px;
   height: 50px;
   margin: 27px auto 57px;
+  font-size: 16px;
 }
 
 .card {
@@ -125,14 +138,82 @@ body {
 .functioning {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
-  align-items: center;
+  width: 375px;
+  height: 440px;
   background: #FFFFFF;
+  padding: 0 20px;
 }
 
 .stage {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 322.49px;
+  height: 72.38px;
+  margin-top: 24.93px;
+  padding: 0;
+  background-color: #F6F6F6;
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+.stage-content {
+  font-weight: 500;
+  font-size: 16px;
+}
+.stage .fa-mobile-screen-button {
+  width: 13.02px;
+  height: 19.9px;
+  margin-left: 21.98px;
+  margin-right: 27px;
+  position: relative;
+  left: -10px;
+}
+.stage-number-1 {
+  font-weight: 500;
+  font-size: 14.18px;
+  color: #FFFFFF;
+  background-color: #9356DC;
+  border-radius: 25px;
+  padding: 3px 7px;
+  position: relative;
+  left: -10px;
+}
+.stage .fa-list-ul {
+  width: 16px;
+  height: 15.92px;
+  color: #7E7E7E;
+  margin: 0 23px;
+  left: -10px;
+}
+.stage-number-2 {
+  font-weight: 500;
+  font-size: 14.18px;
+  color: #FFFFFF;
+  background-color: #9356DC;
+  border-radius: 25px;
+  padding: 3px 7px;
+  position: relative;
+  left: -10px;
+}
+.stage .fa-store {
+  width: 18px;
+  height: 17.91px;
+  color: #9356DC;
+  margin-right: 24px;
+  margin-left: 20px;
+}
+.stage-number-3 {
+  font-weight: 500;
+  font-size: 14.18px;
+  color: #FFFFFF;
+  background-color: #9356DC;
+  border-radius: 25px;
+  padding: 3px 7px;
+  position: relative;
+  left: -10px;
 }
 
 .bannier {
@@ -142,10 +223,6 @@ body {
   align-items: center;
 }
 .bannier__title {
-  font-weight: 700;
-  font-size: 24px;
-  font-style: bold;
-  color: #000000;
   margin: 35px auto 0;
 }
 .bannier-content {
