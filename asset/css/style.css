@@ -107,4 +107,11 @@ body {
   color: #353535;
 }
 
+.restaurant-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /*# sourceMappingURL=style.css.map */
