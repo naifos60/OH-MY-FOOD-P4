@@ -29,12 +29,11 @@
         // left: -18px;
        }
        & .fa-mobile-screen-button{
+        display: flex;
         width: 13.02px;
         height: 19.9px;
         margin-left: 21.98px;
         margin-right: 27px;
-        position: relative;
-        left: -10px;
        }
        &-number-1{
         font-weight: 500;
@@ -47,12 +46,11 @@
         left: -10px;
        }
        & .fa-list-ul{
+        display: flex;
         width: 16px;
         height: 15.92px;
         color: #7E7E7E;
         margin: 0 23px;
-
-        left: -10px;
        }
        &-number-2{
             font-weight: 500;
@@ -65,6 +63,7 @@
             left: -10px;
        }
        & .fa-store{
+        display: flex;
             width: 18px;
             height: 17.91px;
             color: $cd-purple;

@@ -1,6 +1,4 @@
-*,
-*::after,
-*::before {
+* {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
   text-align: center;
@@ -166,12 +164,11 @@ a {
   font-size: 16px;
 }
 .stage .fa-mobile-screen-button {
+  display: flex;
   width: 13.02px;
   height: 19.9px;
   margin-left: 21.98px;
   margin-right: 27px;
-  position: relative;
-  left: -10px;
 }
 .stage-number-1 {
   font-weight: 500;
@@ -184,11 +181,11 @@ a {
   left: -10px;
 }
 .stage .fa-list-ul {
+  display: flex;
   width: 16px;
   height: 15.92px;
   color: #7E7E7E;
   margin: 0 23px;
-  left: -10px;
 }
 .stage-number-2 {
   font-weight: 500;
@@ -201,6 +198,7 @@ a {
   left: -10px;
 }
 .stage .fa-store {
+  display: flex;
   width: 18px;
   height: 17.91px;
   color: #9356DC;
