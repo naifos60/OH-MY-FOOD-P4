@@ -25,13 +25,11 @@
        &-content{
         font-weight: 500;
         font-size: 16px;
-        // position: relative;
-        // left: -18px;
        }
        & .fa-mobile-screen-button{
-        display: flex;
+          font-size: 18px;
         width: 13.02px;
-        height: 19.9px;
+        height: 24px;
         margin-left: 21.98px;
         margin-right: 27px;
        }
@@ -46,9 +44,8 @@
         left: -10px;
        }
        & .fa-list-ul{
-        display: flex;
-        width: 16px;
-        height: 15.92px;
+        font-size: 18px;
+        height: 22px;
         color: #7E7E7E;
         margin: 0 23px;
        }
@@ -63,9 +60,9 @@
             left: -10px;
        }
        & .fa-store{
-        display: flex;
+            font-size: 18px;
             width: 18px;
-            height: 17.91px;
+            height: 24px;
             color: $cd-purple;
             margin-right: 24px;
             margin-left: 20px;
