@@ -18,7 +18,7 @@ body {
 }
 
 .main-container {
-  width: 375px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -72,21 +72,22 @@ a {
 }
 
 .card {
-  width: 340px;
+  width: 100%;
   height: 251px;
   border-radius: 15px;
   background: #FFFFFF;
   margin-bottom: 18px;
 }
 .card img {
-  width: 340px;
+  width: 100%;
   height: 174px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  object-fit: cover;
 }
 .card-content {
   display: flex;
-  justify-content: flex-start;
+  position: relative;
 }
 .card-title {
   font-weight: 700;
@@ -104,13 +105,9 @@ a {
   width: 22px;
   height: 21px;
   font-size: 22px;
-  position: relative;
-  left: 135px;
+  position: absolute;
+  right: 33px;
   top: 23px;
-}
-.card-icone-a-la-francaise {
-  position: relative;
-  left: 174px;
 }
 
 /******** header ********/
@@ -170,6 +167,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .functioning {
@@ -178,10 +176,13 @@ a {
   align-items: flex-start;
   justify-content: center;
   margin: 0 auto;
-  width: 375px;
+  width: 100%;
   height: 440px;
   background: #FFFFFF;
   padding: 0 20px;
+}
+.functioning-stage {
+  width: 100%;
 }
 
 .stage {
@@ -189,7 +190,7 @@ a {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  width: 322.49px;
+  width: 100%;
   height: 72.38px;
   margin-top: 24.93px;
   padding: 0;
