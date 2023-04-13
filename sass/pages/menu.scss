@@ -35,11 +35,31 @@
         margin-top: 19px;
         margin-bottom: 28.72px; 
     }
-     &-icone{
+     &-icone button{
         font-size: 24px;
-            position: absolute;
-            top: 35px;
-            right: 41px;
+        position: absolute;
+        top: 35px;
+        right: 41px;
+        display: flex;
+        width: 25px;
+        height: 24px;
+        font-size: 22px;
+        padding: 0;
+        border: none;
+        background: transparent;
+        position: absolute;
+
+        & i.fa-solid{
+        -webkit-background-clip: text!important;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: thin;
+        position: relative;
+        color: #101010;
+        background: transparent;
+            &:hover{
+                @include background-button  
+                }    
+            }
         }
 }
 .menu-entree,.menu-plat,.menu-dessert{
