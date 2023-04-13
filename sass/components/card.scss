@@ -5,9 +5,6 @@
     border-radius: 15px;
     background: #FFFFFF;
     margin-bottom: 18px;
-    & a{
-        z-index: 0;
-    }
     & img{
         width: 100%;
         height: 174px;
@@ -60,18 +57,18 @@
         position: absolute;
         right: 25px;
         bottom: 33px;
-        z-index: 1;
 
         & i.fa-solid{
         -webkit-background-clip: text!important;
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke: thin;
+        position: relative;
         color: #101010;
-            background: transparent;
+        background: transparent;
             &:hover{
-                @include background-button
+                @include background-button  
+                }    
             }
         }
     }
 
-}
