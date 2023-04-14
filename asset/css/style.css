@@ -319,9 +319,6 @@ a {
 
 /********* media Query *******/
 @media (min-width: 1024px) {
-  .main-container {
-    max-width: 1440px;
-  }
   .functioning {
     padding-left: 180px;
     height: 228.38px;
@@ -363,6 +360,11 @@ a {
   color: #353535;
   font-size: 18px;
   font-weight: 300;
+}
+
+/************ Media Queries ************/
+.bannier__title {
+  font-size: 40px;
 }
 
 .footer {
