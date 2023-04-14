@@ -374,10 +374,11 @@ a {
 }
 
 /************ Media Queries ************/
-.bannier__title {
-  font-size: 40px;
+@media (min-width: 1024px) {
+  .bannier__title {
+    font-size: 40px;
+  }
 }
-
 .footer {
   display: flex;
   flex-direction: column;
