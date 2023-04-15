@@ -497,6 +497,7 @@ a {
   .footer-title {
     margin-left: 90px;
     margin-right: 30px;
+    margin-top: -7px;
   }
   .footer-content {
     display: flex;
