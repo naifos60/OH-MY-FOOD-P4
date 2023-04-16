@@ -280,6 +280,7 @@ a {
   #restaurants {
     padding-left: 180px;
     height: 668px;
+    margin-left: 0;
   }
   .restaurant-card {
     display: flex;
